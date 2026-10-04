@@ -35,9 +35,14 @@ Python oder sonst etwas musst du **nicht** installieren – alles ist dabei.
 
 1. iPod mit dem Kabel anstecken und cadence öffnen.
 2. Reiter **„iPod aktualisieren“** → steht dort **„Update verfügbar“**, auf **Jetzt aktualisieren** klicken.
-3. Warten bis **„Fertig!“** kommt, dann den iPod abstecken. Er liest die Musik ein und startet von selbst neu.
+3. Warten bis **„Fertig!“** kommt, dann den iPod abstecken. Er übernimmt alles und startet kurz neu – fertig.
 
-cadence aktualisiert dabei auch sich selbst – du musst nie wieder etwas herunterladen.
+- Den Musik-Katalog (Datenbank) baut jetzt **der Computer**, nicht mehr der iPod – nach dem Abstecken muss er nicht
+  mehr lange einlesen. Beim allerersten Mal (oder wenn du vorher ein anderes Rockbox hattest) liest er einmal selbst ein.
+- Fragt der Mac beim ersten Mal, ob er die **„Befehlszeilen-Tools“** installieren soll: **Installieren** klicken
+  (einmalig, dauert ein paar Minuten) – damit baut der Mac den Katalog. Ohne geht es auch, dann liest der iPod selbst ein.
+- Vor jedem Update sichert cadence den alten Stand – auf dem iPod **und** auf dem Computer (die letzten 3).
+- cadence aktualisiert dabei auch sich selbst – du musst nie wieder etwas herunterladen.
 
 <p align="center"><img src="bilder/aktualisieren.png" width="640" alt="iPod aktualisieren"></p>
 
@@ -46,24 +51,30 @@ cadence aktualisiert dabei auch sich selbst – du musst nie wieder etwas herunt
 - **Musik aufspielen:** Alben, Songs, Playlists, Hörbücher und Filme einfach ins Fenster (oder aufs cadence-Symbol) ziehen.
   cadence sortiert alles richtig ein, findet Doppelte und macht die Cover passend.
 - **Aussortieren:** Künstler links, Alben mit Cover rechts – anhaken, *Ausgewählte entfernen*, weg ist es.
+- **Aussehen:** das Theme für den iPod am Computer aussuchen (mit Vorschaubildern) – beim Abstecken übernimmt er es.
 - **Backup:** Musik vom iPod auf den Computer sichern (ab dem zweiten Mal nur das Neue).
+- **Zurück & andere Version:** *Zurück auf …* holt den Stand vor dem letzten Update zurück, *Andere Version …* spielt
+  jede Version auf (auch das Original-Rockbox 4.0). Deine Musik bleibt immer.
 - **iPod reparieren:** Spinnt der iPod, spielt cadence das System neu auf – deine Musik bleibt.
 - **Neuen iPod einrichten:** Steckt ein iPod ohne cadence, erkennt cadence ihn und richtet ihn mit einem Klick ein.
+- iPod **angesteckt oder abgesteckt**, während cadence offen ist? Oben erscheint *Neu laden* – ein Klick genügt.
 
 <p align="center"><img src="bilder/aussortieren.png" width="640" alt="Aussortieren"></p>
+
+<p align="center"><img src="bilder/aussehen.png" width="640" alt="Aussehen"></p>
 
 ## Am iPod
 
 | Taste | Was passiert |
 |---|---|
-| **Play** (einschalten) | spielt direkt weiter, wo du aufgehört hast |
-| **Menu** | eine Ebene zurück |
+| **Play** (einschalten) | zeigt den letzten Titel an der alten Stelle (pausiert) – Play spielt weiter |
+| **Menu** | eine Ebene zurück (nach dem Einschalten: ins Hauptmenü) |
 | **Menu lang** (bei „Spielt gerade“) | Helligkeit, Zufall, Wiederholen |
-| **Musik → Einstellungen** | Themes, Equalizer, Einschlaf-Timer, *Abschalten in der Pause* (Aus / 5–60 Min.) |
+| **Musik → Einstellungen** | Themes, Equalizer, Einschlaf-Timer, *Abschalten in der Pause* (Aus / 5–60 Min.), *Beim Einschalten* (Musik-Menü oder Spielt gerade) |
 | **Play halten** | ausschalten |
 | **Menu + Select halten** | Neustart (wenn er mal hängt – der Musik passiert nichts) |
 
-Verschiedene Looks zum Aussuchen unter *Musik → Einstellungen → Themes*:
+Verschiedene Looks zum Aussuchen – in cadence unter *Aussehen* oder am iPod unter *Musik → Einstellungen → Themes*:
 
 <p align="center"><img src="bilder/themes.png" width="720" alt="Themes"></p>
 
@@ -71,12 +82,13 @@ Verschiedene Looks zum Aussuchen unter *Musik → Einstellungen → Themes*:
 
 - **iPod startet gar nicht mehr?** Anstecken, **Menu + Select** halten bis der Apfel kommt, dann sofort
   **Select + Play** halten bis „Festplattenmodus“ erscheint. Dann in cadence: *iPod aktualisieren → iPod reparieren …*
-- **Nach einem Update läuft etwas komisch?** In cadence: *iPod aktualisieren → Zurück auf …* holt den vorherigen Stand zurück.
+- **Nach einem Update läuft etwas komisch?** In cadence: *iPod aktualisieren → Zurück auf …* holt den vorherigen Stand
+  zurück (geht dank der Sicherung auf dem Computer sogar, wenn der iPod zurückgesetzt wurde).
 - Während der iPod einliest: nichts drücken, nicht neu starten.
 
 ## Voraussetzungen
 
-- Mac mit macOS 11 (Big Sur) oder neuer – Apple Silicon und Intel.
+- Mac mit Apple-Chip (M1 und neuer) ab macOS 11 – oder Intel-Mac ab macOS 13 (Ventura).
 - iPod Video (5./5.5. Generation) oder iPod Classic (6./7. Generation).
 
 ---
