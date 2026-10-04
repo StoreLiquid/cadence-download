@@ -57,7 +57,7 @@ Python oder sonst etwas musst du **nicht** installieren – alles ist dabei.
   jede Version auf (auch das Original-Rockbox 4.0). Deine Musik bleibt immer.
 - **iPod reparieren:** Spinnt der iPod, spielt cadence das System neu auf – deine Musik bleibt.
 - **Neuen iPod einrichten:** Steckt ein iPod ohne cadence, erkennt cadence ihn und richtet ihn mit einem Klick ein.
-- iPod **angesteckt oder abgesteckt**, während cadence offen ist? Oben erscheint *Neu laden* – ein Klick genügt.
+- iPod **angesteckt oder abgesteckt**, während cadence offen ist? cadence merkt es und lädt von selbst neu.
 
 <p align="center"><img src="bilder/aussortieren.png" width="640" alt="Aussortieren"></p>
 
@@ -70,6 +70,7 @@ Python oder sonst etwas musst du **nicht** installieren – alles ist dabei.
 | **Play** (einschalten) | zeigt den letzten Titel an der alten Stelle (pausiert) – Play spielt weiter |
 | **Menu** | eine Ebene zurück (nach dem Einschalten: ins Hauptmenü) |
 | **Menu lang** (bei „Spielt gerade“) | Helligkeit, Zufall, Wiederholen |
+| **Rad drehen** (bei „Spielt gerade“) | Lautstärke – der Balken zeigt sie kurz an |
 | **Musik → Einstellungen** | Themes, Equalizer, Einschlaf-Timer, *Abschalten in der Pause* (Aus / 5–60 Min.), *Beim Einschalten* (Musik-Menü oder Spielt gerade) |
 | **Play halten** | ausschalten |
 | **Menu + Select halten** | Neustart (wenn er mal hängt – der Musik passiert nichts) |
