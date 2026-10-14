@@ -67,9 +67,10 @@ h2{font-size:clamp(26px,4vw,32px);font-weight:650;letter-spacing:-.02em;text-ali
 
 /* Fragen */
 details{background:#fff;border-radius:14px;padding:16px 20px;margin-top:10px}
-summary{cursor:pointer;font-weight:600;color:var(--htext);list-style:none}
+summary{cursor:pointer;font-weight:600;color:var(--htext);list-style:none;display:flex;align-items:center;
+  justify-content:space-between;gap:16px}
 summary::-webkit-details-marker{display:none}
-summary::after{content:"+";float:right;color:var(--leise);font-weight:400}
+summary::after{content:"+";flex:none;width:18px;text-align:center;color:var(--leise);font-weight:400;font-size:20px;line-height:1}
 details[open] summary::after{content:"–"}
 details p, details ol{color:var(--hgrau);font-size:15px;margin-top:10px}
 details ol{padding-left:20px}
