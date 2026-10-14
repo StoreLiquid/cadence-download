@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>cadence – neues Leben für deinen iPod</title>
+<meta name="description" content="cadence pflegt deinen iPod Classic oder iPod Video: Musik reinziehen, abstecken, hören – mit Cover, Hörbüchern und eigenen Themes. Für Windows und Mac.">
+<link rel="icon" href="bilder/logo-180.png">
+<link rel="apple-touch-icon" href="bilder/logo-180.png">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<header class="kopf"><div class="breit">
+  <a class="marke" href="./"><img src="bilder/logo-180.png" alt="">cadence</a>
+  <nav><a href="#passt" class="weg">Passt das?</a><a href="themes.html">Themes</a><a href="#hilfe">Hilfe</a></nav>
+</div></header>
+
+<section class="hero">
+  <img class="logo" src="bilder/logo-512.png" alt="cadence">
+  <h1>cadence</h1>
+  <p class="unter">Neues Leben für deinen iPod Classic und iPod Video. Musik reinziehen, abstecken, hören – mit Cover, Hörbüchern und eigenen Themes.</p>
+  <div class="knoepfe" id="knoepfe">
+    <a class="knopf haupt" id="win" href="https://github.com/StoreLiquid/cadence-download/releases/latest/download/cadence-windows.zip">Für Windows laden<small>Windows 10 und 11 · ARM und Intel/AMD</small></a>
+    <a class="knopf neben" id="mac" href="https://github.com/StoreLiquid/cadence-download/releases/latest/download/cadence.dmg">Für Mac laden<small>macOS 11 oder neuer · Apple Silicon und Intel</small></a>
+  </div>
+  <p class="info"><span id="version">Aktuelle Version</span> · kostenlos · <a href="#neu">Was ist neu?</a></p>
+  <div class="schirme">
+    <div class="schirm"><img src="bilder/schirme/1.jpg" alt="Musik-Menü"></div>
+    <div class="schirm"><img src="bilder/schirme/2.jpg" alt="Spielt gerade"></div>
+    <div class="schirm"><img src="bilder/schirme/3.jpg" alt="Alben mit Cover"></div>
+    <div class="schirm"><img src="bilder/schirme/4.jpg" alt="Classic-Menü"></div>
+    <div class="schirm"><img src="bilder/schirme/5.jpg" alt="Spielt gerade, hell"></div>
+  </div>
+</section>
+
+<section class="hell"><div class="breit">
+  <h2>So einfach geht's</h2>
+  <div class="raster">
+    <div class="karte"><span class="nr">01</span><b>Einmal einrichten</b>iPod anstecken, cadence öffnen – das Programm richtet ihn Schritt für Schritt ein. Vorher legt es eine Sicherung an.</div>
+    <div class="karte"><span class="nr">02</span><b>Musik reinziehen</b>Ordner ins Fenster ziehen. Cover, Alben, Hörbücher und Filme sortiert cadence selbst.</div>
+    <div class="karte"><span class="nr">03</span><b>Bleibt aktuell</b>Neue Versionen kommen von allein, ohne alles neu aufzuspielen. Die Uhr stellt sich beim Anstecken.</div>
+  </div>
+</div></section>
+
+<section class="hell" id="passt"><div class="breit">
+  <h2>Passt das zu meinem iPod?</h2>
+  <p class="zeile">Die Modellnummer steht hinten auf dem iPod (z. B. A1238).</p>
+  <div class="passt">
+    <div class="karte"><b>Geht</b><ul>
+      <li class="ja">iPod Classic (6. und 7. Generation, 80–160 GB)</li>
+      <li class="ja">iPod Video (5. und 5.5. Generation, 30–80 GB)</li>
+      <li class="ja">auch mit SSD, iFlash oder größerer Festplatte</li>
+      <li class="ja">Windows 10/11 und macOS 11 oder neuer</li>
+    </ul></div>
+    <div class="karte"><b>Geht nicht</b><ul>
+      <li class="nein">iPod nano, shuffle, mini</li>
+      <li class="nein">iPod touch und iPhone</li>
+      <li class="nein">iPod Photo und ältere Modelle</li>
+      <li class="nein">Linux (bisher nicht getestet)</li>
+    </ul></div>
+  </div>
+</div></section>
+
+<section class="dunkel"><div class="breit">
+  <h2>Sieht aus, wie du willst</h2>
+  <p class="zeile" style="color:var(--grau)">17 Themes – von schlicht bis bunt. Wechseln geht jederzeit, am iPod oder in cadence.</p>
+  <div class="galerie" id="vorschau"></div>
+  <p class="mehr"><a href="themes.html">Alle Themes ansehen →</a></p>
+</div></section>
+
+<section class="hell" id="neu"><div class="breit">
+  <h2>Was ist neu?</h2>
+  <div class="neu" id="neuigkeiten"><p>Die neuesten Änderungen werden geladen …</p></div>
+</div></section>
+
+<section class="hell" id="hilfe"><div class="breit">
+  <h2>Hilfe</h2>
+  <div class="fragen">
+    <details><summary>Windows: Was muss ich vorher installieren?</summary>
+      <p>cadence braucht Python (kostenlos). Einmalig:</p>
+      <ol>
+        <li>Python von <a href="https://www.python.org/downloads/">python.org</a> installieren – dabei unten „Add python.exe to PATH“ anhaken.</li>
+        <li>Die Eingabeaufforderung öffnen und eingeben: <code>py -m pip install mutagen pillow</code></li>
+        <li>Die ZIP-Datei von oben entpacken (z. B. nach „Dokumente\cadence“) und <code>cadence.exe</code> starten.</li>
+      </ol></details>
+    <details><summary>Mac: „cadence kann nicht geöffnet werden“</summary>
+      <p>cadence ist nicht bei Apple registriert. Beim ersten Mal: in „Programme“ <b>Rechtsklick auf cadence → Öffnen</b> und noch einmal „Öffnen“ bestätigen. Danach startet es ganz normal.</p></details>
+    <details><summary>Bleibt meine Musik erhalten?</summary>
+      <p>Bei einem iPod, der schon an einem Windows-PC eingerichtet war: ja, Musik, Wiedergabelisten und Hörbücher bleiben. War er am Mac mit iTunes/Finder eingerichtet, muss er einmal auf das Windows-Format (FAT32) umgestellt werden – dabei wird er geleert. cadence sagt dir vorher genau, was passiert. Vor jedem großen Update legt cadence außerdem eine Sicherung auf deinem Computer an.</p></details>
+    <details><summary>Kann ich zurück zur Original-Software von Apple?</summary>
+      <p>Ja. Die Apple-Software bleibt auf dem iPod erhalten, cadence ersetzt sie nicht. Außerdem kannst du in cadence jederzeit auf eine frühere cadence-Version zurückgehen.</p></details>
+    <details><summary>Brauche ich iTunes oder die App „Musik“?</summary>
+      <p>Nein. cadence kopiert die Musik selbst auf den iPod. Du kannst einfach Ordner aus dem Explorer bzw. Finder ins Fenster ziehen.</p></details>
+    <details><summary>Was kostet cadence?</summary>
+      <p>Nichts. cadence ist ein privates Projekt ohne Werbung und ohne Konto.</p></details>
+  </div>
+</div></section>
+
+<footer>
+  cadence ist ein privates Projekt und nicht mit Apple verbunden. iPod ist eine Marke der Apple Inc.<br>
+  Auf dem iPod läuft eine angepasste Fassung der freien Firmware Rockbox (GPL v2) ·
+  <a href="lizenzen.html">Quelltext &amp; Lizenzen</a> · <a href="lizenzen.html#datenschutz">Datenschutz</a> ·
+  <a href="mailto:post@elara-hub.com">Kontakt</a>
+</footer>
+
+<script>
+// Passender Download zuerst (Mac oder Windows)
+(function () {
+  var mac = /Mac|iPhone|iPad/.test(navigator.platform) || /Mac OS X/.test(navigator.userAgent);
+  if (mac) {
+    var k = document.getElementById('knoepfe'), w = document.getElementById('win'), m = document.getElementById('mac');
+    m.className = 'knopf haupt'; w.className = 'knopf neben'; k.insertBefore(m, w);
+  }
+})();
+
+// Themes-Vorschau (6 Stück)
+var THEMES = [['music-rot', 'Music Rot'], ['scrim-dunkel', 'Scrim Dunkel'], ['classic-2001', 'Classic 2001'],
+              ['xp-bliss', 'XP Bliss']];
+document.getElementById('vorschau').innerHTML = THEMES.map(function (t) {
+  return '<figure><div class="rahmen"><img loading="lazy" src="bilder/themes/' + t[0] + '.jpg" alt=""></div>' +
+         '<figcaption>' + t[1] + '</figcaption></figure>';
+}).join('');
+
+// Version und „Was ist neu“ – kommt automatisch vom neuesten Release (nie von Hand nachpflegen)
+function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]; }); }
+fetch('https://api.github.com/repos/StoreLiquid/cadence-download/releases/latest')
+  .then(function (r) { return r.json(); })
+  .then(function (d) {
+    var v = (d.name || '').match(/\d+(\.\d+)+/);
+    if (v) document.getElementById('version').textContent = 'Version ' + v[0];
+    var zeilen = (d.body || '').replace(/<!--[\s\S]*?-->/g, '').split(/\r?\n/).map(function (z) { return z.trim(); })
+                 .filter(Boolean);
+    if (!zeilen.length) throw 0;
+    var kopf = zeilen[0].charAt(0) === '-' ? '' : zeilen.shift();
+    var punkte = zeilen.filter(function (z) { return /^[-*]/.test(z); }).map(function (z) { return z.replace(/^[-*]\s*/, ''); });
+    document.getElementById('neuigkeiten').innerHTML =
+      '<h3>' + esc(v ? 'cadence ' + v[0] : 'Neueste Version') + '</h3>' + (kopf ? '<p>' + esc(kopf) + '</p>' : '') +
+      (punkte.length ? '<ul>' + punkte.map(function (p) { return '<li>' + esc(p) + '</li>'; }).join('') + '</ul>' : '');
+  })
+  .catch(function () {
+    document.getElementById('neuigkeiten').innerHTML = '<p>Gerade nicht abrufbar – die Neuigkeiten zeigt cadence nach dem Update selbst an.</p>';
+  });
+</script>
+</body>
+</html>

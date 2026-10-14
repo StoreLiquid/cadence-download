@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Themes – cadence</title>
+<link rel="icon" href="bilder/logo-180.png">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<header class="kopf"><div class="breit">
+  <a class="marke" href="./"><img src="bilder/logo-180.png" alt="">cadence</a>
+  <nav><a href="./#passt" class="weg">Passt das?</a><a href="themes.html">Themes</a><a href="./#hilfe">Hilfe</a></nav>
+</div></header>
+
+<section class="dunkel text" style="padding-bottom:30px"><div class="breit">
+  <h1>Themes</h1>
+  <p>So sieht dein iPod mit cadence aus. Wechseln geht jederzeit – am iPod unter Einstellungen › Themes oder in cadence unter „Aussehen“, dort auch mit eigenen Farben.</p>
+  <div class="galerie" id="alle"></div>
+</div></section>
+
+<footer>
+  cadence ist ein privates Projekt und nicht mit Apple verbunden. iPod ist eine Marke der Apple Inc.<br>
+  <a href="./">Start</a> · <a href="lizenzen.html">Quelltext &amp; Lizenzen</a> · <a href="lizenzen.html#datenschutz">Datenschutz</a> ·
+  <a href="mailto:post@elara-hub.com">Kontakt</a>
+</footer>
+<script>
+var THEMES = [
+  ['music-rot', 'Music Rot'], ['music-blau', 'Music Blau'], ['music-schwarz', 'Music Schwarz'],
+  ['scrim-dunkel', 'Scrim Dunkel'], ['scrim-hell', 'Scrim Hell'], ['scrim-p-dunkel', 'Scrim P Dunkel'],
+  ['scrim-p-hell', 'Scrim P Hell'], ['midnight', 'Midnight'], ['midnight-cover', 'Midnight Cover'],
+  ['musicos-dark', 'musicOS Dark'], ['musicos-light', 'musicOS Light'], ['classic-2001', 'Classic 2001'],
+  ['classic-2001-dark', 'Classic 2001 Dark'], ['xp-bliss', 'XP Bliss'], ['xp-royale-noir', 'XP Royale Noir'],
+  ['bruder-mit-der-dauerwelle', 'Bruder mit der Dauerwelle'], ['bruder-mit-der-dauerwelle-pixel', 'Dauerwelle (Pixel)']];
+document.getElementById('alle').innerHTML = THEMES.map(function (t) {
+  return '<figure><div class="rahmen"><img loading="lazy" src="bilder/themes/' + t[0] + '.jpg" alt="' + t[1] + '"></div>' +
+         '<figcaption>' + t[1] + '</figcaption></figure>';
+}).join('');
+</script>
+</body>
+</html>
