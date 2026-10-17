@@ -31,6 +31,7 @@ img{max-width:100%}
 .knopf small{font-weight:400;font-size:13px;opacity:.7;margin-top:2px}
 .knopf.haupt{background:#fff;color:var(--dunkel)}
 .knopf.neben{border:1px solid #3b3b44;background:var(--karte)}
+.knopf.aus{opacity:.55;cursor:default;pointer-events:none}
 .info{color:var(--leise);font-size:13.5px;margin-top:18px}
 .info a{color:var(--grau)}
 .schirme{display:flex;gap:18px;justify-content:center;margin:64px auto 0}
